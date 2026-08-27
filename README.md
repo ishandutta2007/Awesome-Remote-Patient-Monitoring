@@ -27,82 +27,34 @@ How to Contribute
 
 Disclaimer
 
-SaaS/Hosted Platforms
+## SaaS/Hosted Platforms
 
-Validic
-Enterprise remote-care and health-data infrastructure platform that normalizes data from hundreds of connected devices and integrates patient-generated health data into clinical workflows and EHRs.
-
-Health Recovery Solutions
-Remote patient monitoring and care-management platform supporting connected devices, patient engagement, clinical monitoring, care pathways, and transitional care.
-
-Optimize Health
-RPM platform designed to help healthcare organizations enroll patients, collect connected-device data, monitor populations, and manage chronic conditions remotely.
-
-Current Health
-Enterprise hospital-to-home platform combining remote monitoring, connected medical devices, patient data, and clinical workflows.
-
-CareSimple
-Remote patient monitoring platform supporting connected medical devices, patient engagement, clinical monitoring, and chronic-care workflows.
-
-Biofourmis
-Digital health platform using continuous patient data, wearable sensors, analytics, and AI-driven insights for remote monitoring and personalized care.
-
-CoachCare
-Connected-care and RPM platform combining remote monitoring devices, patient engagement, coaching, care management, and clinical dashboards.
-
-Prevounce
-Cloud-based remote-care management platform supporting RPM, chronic care management, advanced primary care management, and annual wellness programs, with connected devices and workflow automation.
-
-Withings Health Solutions
-Connected-health ecosystem providing medical-grade connected devices and APIs for integrating weight, blood pressure, ECG, activity, and other patient-generated health data into healthcare workflows.
-
-100Plus
-Remote-care platform combining RPM and chronic-care management with cellular-connected devices, monitoring, alerts, patient engagement, EHR integration, and reimbursement support.
-
-Cadence
-Technology-enabled chronic-care platform combining connected devices, continuous monitoring, clinical teams, and personalized care programs.
-
-Philips eCareCoordinator
-Remote-care and telehealth technology supporting clinical monitoring, care coordination, patient data, alerts, and virtual-care workflows.
-
-CareSimple
-Connected RPM platform providing device-based monitoring, patient engagement, clinical workflows, and population management.
-
-Vivify Health
-Digital care platform supporting remote monitoring, virtual care, chronic-care management, patient engagement, and hospital-to-home programs.
-
-Teladoc Health Chronic Care
-Connected-health and chronic-condition management ecosystem supporting remote monitoring, digital therapeutics, coaching, and virtual care.
-
-Huma
-Digital health platform providing remote monitoring, patient engagement, clinical workflows, and disease-specific digital care pathways.
-
-TytoCare
-Remote examination and connected-care platform enabling clinicians to conduct guided examinations and collect clinical measurements remotely.
-
-Medically Home
-Technology-enabled hospital-at-home ecosystem supporting remote patient care, monitoring, clinical coordination, and acute-care-at-home models.
-
-Aiva Health
-Voice-enabled and connected-care technology supporting remote communication, monitoring, and patient engagement in healthcare environments.
-
-Luscii
-Virtual-care and remote-monitoring platform supporting chronic disease management, connected devices, patient questionnaires, alerts, and clinical workflows.
-
-Datos Health
-No-code remote-care platform for building personalized digital care pathways and integrating patient-generated health data into clinical workflows.
-
-Tunstall Healthcare
-Connected health and telecare ecosystem providing remote monitoring, safety, communication, and assisted-living technologies.
-
-Care Innovations
-Digital health technology supporting remote monitoring, care management, and connected patient-care programs.
-
-eClinicalWorks healow
-Patient-facing digital health ecosystem supporting remote monitoring, patient engagement, telehealth, and connected healthcare workflows.
-
-Validic Inform
-Health-data infrastructure layer for ingesting and normalizing data from connected devices and health applications before delivery into healthcare systems.
+| Product | Description | Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **Validic** | Enterprise remote-care and health-data infrastructure platform that normalizes data from 700+ connected devices into clinical workflows and EHRs. | Starts at $15/user/month (or $500/month base platform fee for Business tier) | Free Forever Developer Tier (5 active users, 5 cloud device integrations, REST/streaming API sandbox, 90-day data retention) |
+| **Validic Inform** | Health-data infrastructure layer for ingesting and streaming normalized data from connected devices and consumer health apps to EHR systems. | Starts at $15/connected user/month (production tier scaled by data throughput) | Free Forever Developer Tier (5 users, 5 data source connectors, 90-day retention, full developer sandbox) |
+| **Health Recovery Solutions (HRS)** | RPM and care-management platform supporting cellular 4G/Bluetooth devices, patient engagement, clinical monitoring, and transitional care. | Starts at $35/patient/month (software-only) or ~$150/patient/month (with cellular tablet & biometric kit) | 30-day clinical evaluation pilot (limited to 10 enrolled patients with standard vitals monitoring) |
+| **Optimize Health** | RPM platform designed to help healthcare organizations enroll patients, collect connected-device data, monitor populations, and manage chronic care. | Starts at $15/patient/month (software platform tier) or ~$45/patient/month (with managed clinical support) | 14-day interactive sandbox trial (limited to test clinician accounts and 5 simulated patient profiles) |
+| **Current Health** (Best Buy Health) | Enterprise hospital-to-home platform combining continuous wearable monitoring, connected medical devices, patient data, and 24/7 clinical workflows. | Starts at $150/patient/month (includes wearable continuous vital sensors, cellular gateway, and clinical triage) | 30-day hospital-to-home evaluation pilot (limited to a clinical cohort of up to 10 trial patients) |
+| **CareSimple** | Connected RPM platform providing turnkey cellular-device monitoring, patient engagement, automated clinical workflows, and population management. | Starts at $20/patient/month (software-only) or ~$45/patient/month (including turnkey cellular device logistics) | 30-day pilot trial program (limited to up to 10 active patient setups with cellular hardware) |
+| **Biofourmis** | AI-powered digital health platform using continuous patient telemetry, wearable sensors, predictive analytics, and personalized care pathways. | Starts at $120/patient/month (Biovitals platform tier + biosensor monitoring streams) | 30-day clinical department evaluation trial (limited to 5–10 enrolled cohort patients) |
+| **CoachCare** | Connected-care and RPM platform combining remote monitoring devices, patient mobile engagement, coaching, care management, and CPT billing automation. | Starts at $45/provider/month platform fee + $15/patient/month for RPM/CCM modules | 14-day trial sandbox (limited to 1 provider account and up to 5 demo patient records) |
+| **Prevounce** | Cloud-based remote-care management platform supporting RPM, chronic care management (CCM), and annual wellness visits with connected devices. | Starts at $150/month base practice tier (or ~$10–$20/active patient/month) | 30-day practice trial pilot (limited to onboarding 1 clinical team and up to 5 test patients with automated CPT tracking) |
+| **Withings Health Solutions** | Connected-health ecosystem providing medical-grade connected devices and APIs for integrating weight, BP, ECG, and activity data into clinical workflows. | Starts at $9.95/month (Withings+ subscription) or $5–$15/device/month (Health Solutions Pro API tier) | 14-day free trial on Withings App (or 1-month trial with hardware purchase); Free developer API sandbox for integration testing |
+| **100Plus** | Turnkey RPM platform providing cellular-connected devices (BP cuff, scale, glucometer), monitoring, alerts, AI patient engagement, and reimbursement support. | Starts at $40/active patient/month (turnkey RPM bundle including cellular hardware) | 30-day provider evaluation pilot (includes up to 5 starter cellular device units and test enrollments) |
+| **Cadence** | Technology-enabled chronic-care platform combining connected devices, continuous monitoring, responsive clinical teams, and personalized care programs. | Starts at $35/active patient/month (per-active-patient model; no upfront software licensing fee) | 60-day phased clinical pilot (limited to an initial patient cohort of 10–20 enrolled patients) |
+| **Philips eCareCoordinator** | Enterprise telehealth and remote-care clinical platform supporting vital monitoring, care coordination, population dashboards, and virtual-care workflows. | Starts at $2,500/month department license (or ~$50–$120/patient/month depending on hardware kit) | 30-day clinical sandbox trial (limited to department evaluation access with simulated patient vital streams) |
+| **Vivify Health** (Optum) | Digital care platform supporting remote monitoring, virtual care, chronic-care management, patient engagement, and hospital-to-home pathways. | Starts at $30/patient/month (Vivify Go BYOD tier) or ~$75/patient/month (Vivify Complete cellular tablet kit) | 30-day enterprise evaluation pilot (limited to 10 patient licenses with sample disease management protocols) |
+| **Teladoc Health Chronic Care** | Connected-health and chronic-condition management ecosystem supporting remote monitoring, connected cellular meters, digital therapeutics, and coaching. | Starts at $45/enrolled member/month (includes cellular-connected glucose/BP meters, test strips, and coaching) | 30-day organizational pilot evaluation (limited to an employee health cohort of up to 20 enrolled members) |
+| **Huma** | Digital health platform providing remote monitoring, patient engagement, clinical workflows, and disease-specific digital care pathways. | Starts at €8/patient/month (~$9/patient/month for modular RPM care pathways) | 14-day free trial / developer sandbox (limited to 1 configured clinical pathway and up to 10 test patient profiles) |
+| **TytoCare** | Remote examination and connected-care platform enabling clinicians to conduct guided physical examinations (heart, lungs, throat, ears, skin) remotely. | Starts at $299 (TytoHome consumer kit) or $999 (TytoPro clinical device) + $30/month clinician portal license | 30-day institutional evaluation pilot (includes 1 evaluation examination kit and clinician portal access) |
+| **Medically Home** | Technology-enabled hospital-at-home ecosystem supporting acute-level remote patient care, biometric monitoring, clinical coordination, and virtual hospital models. | Starts at $200/acute patient/episode (integrated virtual command center software + logistics orchestration) | 60-day health system feasibility trial (limited to a designated hospital unit and up to 10 acute-at-home beds) |
+| **Aiva Health** | Voice-enabled and connected-care technology supporting bedside voice assistants, remote communication, clinician workflows, and patient engagement. | Starts at $25/room/month (Essential tier) or $60/room/month (Professional tier) | Free Forever Starter Tier (limited to 1 device/room with core voice requests); 14-day full trial for multi-room deployment |
+| **Luscii** | Virtual-care and remote-monitoring platform supporting chronic disease management, "virtual wards", connected devices, and clinical workflows. | Starts at £12/patient/month (~$15/patient/month "Step-in" license) or £1,500/month (~$1,950/month unlimited department license) | 30-day virtual ward trial pilot (limited to 1 clinical department and up to 15 trial patients) |
+| **Datos Health** | No-code remote-care automation platform for building personalized digital care pathways and integrating patient-generated health data into clinical workflows. | Starts at $20/patient/month (or $1,200/month practice tier) | 30-day pilot trial / sandbox (limited to 2 automated care pathways and up to 10 test patient journeys) |
+| **Tunstall Healthcare** | Connected health and telecare ecosystem providing remote patient monitoring, personal emergency response systems (PERS), safety sensors, and assisted-living workflows. | Starts at $30/monitored user/month (software & triage gateway license + hardware terminal fees) | 30-day pilot evaluation program (limited to 1 clinical care team and up to 5 monitoring units) |
+| **Care Innovations** | Digital health technology platform (Health Harmony) supporting remote patient monitoring, chronic disease management, and clinician care coordination. | Starts at $40/patient/month (software platform tier) or ~$80/patient/month (with multi-device peripheral bundle) | 30-day clinical proof-of-concept trial (limited to 10 enrolled patients and core clinical dashboard access) |
+| **eClinicalWorks healow** | Patient-facing digital health ecosystem supporting remote patient monitoring, telehealth visits, patient portal engagement, and connected EHR workflows. | Starts at $449/provider/month (base EHR platform) + $10/patient/month (healow RPM add-on module) | 30-day provider sandbox trial / interactive demo environment (limited to 1 test provider account and sample patient EHR records) |
 
 RPM platforms generally span several overlapping capabilities: device connectivity, patient onboarding, physiologic-data ingestion, clinical dashboards, threshold alerts, care management, patient engagement, EHR integration, reimbursement workflows, and population health analytics.
 
